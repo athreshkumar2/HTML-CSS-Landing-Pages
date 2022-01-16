@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <title>Music CSS Landing Page</title>
+    <style>
+        body {
+            background-image: url('bg.jpg');
+            background-repeat: no-repeat;
+        }
+
+        h3 {
+            position: absolute;
+            margin-left: 15px;
+            color: aliceblue;
+            font-size: 23px;
+            font-family: 'Fredoka One', cursive;
+        }
+
+        .mid {
+            padding-top: 10px;
+            /* border: 2px solid red; */
+            display: block;
+            width: 800px;
+            margin: auto;
+            text-align: center;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            background-color: #d84c3d;
+            margin: 4px;
+            color: antiquewhite;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 30px;
+            font-family: 'Fira Sans', sans-serif;
+        }
+
+        .navbar li a:hover {
+            color: rgb(0, 0, 0);
+            background-color: rgb(210, 221, 47);
+            border: 2px solid white;
+            border-radius: 30px;
+            font-family: 'Special Elite', cursive;
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 22px;
+            display: inline-block;
+        }
+
+        .inputsearch {
+            text-align: center;
+            padding: 5px;
+            border-radius: 20px;
+            cursor: pointer;
+            border: 2px solid red;
+        }
+
+        .content {
+            /* border: 2px solid red; */
+        }
+
+        .content {
+            margin-top: 100px;
+            padding: 40px;
+        }
+
+        input {
+            margin: 4px;
+            width: 250px;
+            padding: 10px;
+            text-align: center;
+            font-size: medium;
+            font-weight: bold;
+            border-radius: 20px 0px 30px 0px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .heading {
+            margin-top: 70px;
+        }
+
+        button {
+            margin-top: 25px;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: none;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <h3>Athresh Music</h3>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <input class='inputsearch' type="text" placeholder="Search Here">
+        </div>
+    </div>
+
+    <h3 class="heading">Best Music Streaming Platform</h3>
+    <div class="content">
+        <form action="">
+            <div class="name">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="age">
+                <input type="text" placeholder="Enter Your Age">
+            </div>
+            <div class="gender">
+                <input type="text" placeholder="Enter Your Gender">
+            </div>
+            <div class="place">
+                <input type="text" placeholder="Enter Your Place">
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
